@@ -1,0 +1,37 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="asd.js">
+</script>
+
+<style> .required-field::after {
+content: "*";
+color: red; }
+</style>
+
+</head>
+<body>
+<div style="border: solid;width: 100%; height: 100%; background-image: url(bd.jpg); background-repeat: no-repeat; background-position: center; background-size: 1440px 610px;">
+<div style="width: 45%;">
+<form method="post" action="message.html" name="Regform">
+<table>
+<td>
+<pre>
+<p style="font-size:17px ;color:#000000; font-family:Geneva">
+
+<span class="required-field"></span>Username <input type="text" name="name" pattern="[a-zA-Z][a-zA-Z ]{2,}" id="nam" required>
+
+<span class="required-field"></span>Password<input type="password" name="pass" id="pass" required>
+
+<span class="required-field"></span>Confirm Password<input type="password" name="conpass" id="conpass" required>
+
+<button type="submit" id="Submit" onclick="vald()">Sign in</button>
+</p>
+</pre>
+</td>
+</table>
+</form>
+</div>
+</div>
+
+</body>
+</html>
