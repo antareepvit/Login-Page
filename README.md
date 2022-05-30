@@ -1,2 +1,2 @@
 # Login-Page
-Mozilla Firefox Task
+Mozilla Firefox Club Task
